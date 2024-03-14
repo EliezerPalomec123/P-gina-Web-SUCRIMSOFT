@@ -19,7 +19,7 @@
   margin-top: 2rem;
   padding: 1rem;
   border-radius: 50px;
-} 
+}
 
 .container-navbar {
   min-width: 95%;
@@ -47,7 +47,7 @@
 
 .main-box-inicio {
   height: 70vh;
-  background-color: lightpink;
+  /* background-color: lightpink; */
   border-radius: 50px;
   position: relative;
   width: 100%;
@@ -88,7 +88,6 @@
 
 .fila {
   background-color: lightgreen;
-  height: 10vh;
   width: 95%;
   height: 100%;
   margin-left: auto;
@@ -102,7 +101,10 @@
   align-items: center;
   z-index: 2;
   color: white;
+  /* background-color: lightcoral; */
 }
+
+
 
 .container-description-inicio {
   z-index: 3;
@@ -118,6 +120,10 @@
   font-size: 4.5rem;
   width: 2rem;
   font-weight: 900;
+}
+
+.text-title-inicio2 {
+  display: none;
 }
 
 .container-description-inicio {
@@ -215,17 +221,17 @@
 
 /* Nosotros2 */
 
-.container-nosotros{
+.container-nosotros {
   width: 100%;
   margin-top: 6rem;
 }
 
-.fila-nosotros{
+.fila-nosotros {
   position: relative;
   display: flex;
 }
 
-.container-left-nosotros{
+.container-left-nosotros {
   height: 42vh;
   display: flex;
   align-items: center;
@@ -233,14 +239,14 @@
 }
 
 
-.container-right-nosotros{
+.container-right-nosotros {
   height: 42vh;
   display: flex;
   align-items: flex-end;
   /* background-color: lightgreen; */
 }
 
-.container-image{
+.container-image {
   width: 70%;
   height: 100%;
   margin-left: 25%;
@@ -248,20 +254,20 @@
   overflow: hidden;
 }
 
-.image-nosotros{
+.image-nosotros {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.container-text{
+.container-text {
   height: 45%;
   width: 85%;
   margin-bottom: 5%;
   /* background-color: lightpink; */
 }
 
-.container-image-visi{
+.container-image-visi {
   width: 70%;
   height: 100%;
   margin-right: 25%;
@@ -270,21 +276,21 @@
 }
 
 
-.container-text-visi{
+.container-text-visi {
   height: 45%;
   width: 85%;
   margin-bottom: 5%;
   /* background-color: lightblue; */
 }
 
-.container-right-nosotros-visi{
+.container-right-nosotros-visi {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   /* background-color: lightcoral; */
 }
 
-.container-left-nosotros-visi{
+.container-left-nosotros-visi {
   height: 42svh;
   display: flex;
   align-items: center;
@@ -292,7 +298,7 @@
   /* background-color: aqua; */
 }
 
-.circle2-visi{
+.circle2-visi {
   justify-content: flex-start;
 }
 
@@ -307,19 +313,19 @@
   justify-content: center;
 }
 
-.more-us .ddd{
+.more-us .ddd {
   width: 95%;
- 
+
 }
 
-.container-button-c{
+.container-button-c {
   position: absolute;
   z-index: 5;
   bottom: 2rem;
   left: 1rem;
 }
 
-.container-button-c .more-us-btn-c{
+.container-button-c .more-us-btn-c {
   border: none;
   width: 200px;
   border-radius: 4rem;
@@ -346,7 +352,7 @@
   width: 100%;
 }
 
-.content-enfoque-v{
+.content-enfoque-v {
   width: 100%;
   height: 100%;
   display: flex;
@@ -355,30 +361,30 @@
   position: relative;
 }
 
-.texts-enfoque-v{
+.texts-enfoque-v {
   width: 50%;
   height: 100%;
   border-radius: 2rem;
   position: relative;
 }
 
-.container-title-more-us-p{
+.container-title-more-us-p {
   position: absolute;
   bottom: 1.5rem;
   left: 1.5rem;
 }
 
-.container-description-us-p{
+.container-description-us-p {
   position: absolute;
   top: 1.5rem;
   left: 1.5rem;
 }
 
-.text-description-more-us-p{
+.text-description-more-us-p {
   font-size: 1rem;
 }
 
-.container-img-enfoque-v{
+.container-img-enfoque-v {
   display: flex;
   position: relative;
   width: 50%;
@@ -388,7 +394,7 @@
   overflow: hidden;
 }
 
-.img-more-us-p{
+.img-more-us-p {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -410,7 +416,7 @@
   padding-top: 0.8rem;
 }
 
-.image-more-us-c{
+.image-more-us-c {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -418,7 +424,7 @@
   z-index: 1;
 }
 
-.title-more-us-c{
+.title-more-us-c {
   position: absolute;
   z-index: 2;
   top: 1rem;
@@ -429,12 +435,12 @@
   font-weight: 900;
 }
 
-.two-sections{
+.two-sections {
   margin-top: 1rem;
 }
 
 
-.orien-exi-container{
+.orien-exi-container {
   width: 100%;
   height: 100%;
   background-color: black;
@@ -442,43 +448,43 @@
   position: relative;
 }
 
-.container-title-orien-exi{
+.container-title-orien-exi {
   width: 60%;
   position: absolute;
   bottom: 2rem;
   left: 1.5rem;
 }
 
-.text-title-orien-exi{
+.text-title-orien-exi {
   font-size: 2rem;
   font-weight: bold;
   color: white;
 }
 
-.container-description-orien-exi{
+.container-description-orien-exi {
   width: 50%;
   position: absolute;
   top: 1rem;
   left: 1.5rem;
 }
 
-.container-icon-orien-exi{
+.container-icon-orien-exi {
   position: absolute;
   top: 1rem;
   right: 1.5rem;
 }
 
-.icon-flecha{
+.icon-flecha {
   font-size: 2rem;
   font-weight: bold;
   color: white;
 }
 
-.text-description-orien-text{
+.text-description-orien-text {
   color: white;
 }
 
-.prac-container{
+.prac-container {
   position: relative;
   border-radius: 3rem;
   width: 100%;
@@ -490,7 +496,7 @@
 /* ********************************* */
 /* Estilos para la sección de tecnologias */
 /* ********************************* */
-.container-tecnologias{
+.container-tecnologias {
   width: 100%;
   margin-top: 5rem;
   background-color: black;
@@ -498,15 +504,15 @@
   overflow: hidden;
 }
 
-.row-tecnologias{
+.row-tecnologias {
   margin-right: auto;
   margin-left: auto;
   display: flex;
   align-items: center;
-  
+
 }
 
-.texts-tecnologias{
+.texts-tecnologias {
   /* background-color: lightcoral; */
   height: 35vh;
   display: flex;
@@ -514,7 +520,7 @@
   justify-content: center;
 }
 
-.container-title-tecnologias{
+.container-title-tecnologias {
   /* background-color: lightpink; */
   height: 20%;
   display: flex;
@@ -526,7 +532,7 @@
   margin-bottom: 1.5rem;
 }
 
-.container-description-tecnologias{
+.container-description-tecnologias {
   /* background-color: red; */
   height: 50%;
   width: 95%;
@@ -549,7 +555,7 @@
 }
 
 
-.container-carrousel{
+.container-carrousel {
   position: relative;
   display: flex;
   justify-content: center;
@@ -561,7 +567,7 @@
   /* background-color: lightgreen; */
 }
 
-.container-content-carrousel{
+.container-content-carrousel {
   width: calc(100% - 70px);
   height: 70%;
   position: relative;
@@ -569,7 +575,7 @@
   overflow: hidden;
 }
 
-.title-tecnologias{
+.title-tecnologias {
   font-size: 3.5rem;
   color: white;
   font-weight: bold;
@@ -581,7 +587,7 @@
 }
 
 .swiper-wrapper {
-  display: flex; 
+  display: flex;
 }
 
 .swiper-wrapper .swiper-slide {
@@ -608,7 +614,7 @@
   top: 50%;
   transform: translateY(-50%);
   width: 100%;
-  z-index: 1; 
+  z-index: 1;
 }
 
 .swiper-button-container .button-next,
@@ -620,7 +626,7 @@
   align-items: center;
 }
 
-.swiper-button-container  .button-next{
+.swiper-button-container .button-next {
   right: -0.3rem;
 }
 
@@ -632,7 +638,7 @@
 /* ********************************* */
 /* Estilos para la sección de servicios */
 /* ********************************* */
-.container-servicios{
+.container-servicios {
   width: 100%;
   height: 60vh;
   margin-top: 10rem;
@@ -643,13 +649,13 @@
   position: relative;
 }
 
-.container-content-servicios{
+.container-content-servicios {
   width: 90%;
   height: 90%;
   /* background-color: aqua; */
 }
 
-.swiper-slide-content{
+.swiper-slide-content {
   width: 100%;
   height: 100%;
   display: flex;
@@ -659,7 +665,7 @@
 }
 
 
-.container-description-slide{
+.container-description-slide {
   width: 100%;
   height: 100%;
   display: flex;
@@ -668,25 +674,25 @@
   /* background-color: aquamarine; */
 }
 
-.description-service{
+.description-service {
   width: 100%;
   height: 70%;
-  background-color:  #CCCCCC;
+  background-color: #CCCCCC;
   position: relative;
   border-radius: 3rem;
 }
 
-.container-image-slide-services{
+.container-image-slide-services {
   width: 100%;
   height: 90%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   top: -13rem;
-  
+
 }
 
-.container-image-slide-services .image-services{
+.container-image-slide-services .image-services {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -694,22 +700,22 @@
   z-index: 1;
 }
 
-.container-description{
+.container-description {
   width: 100%;
   height: 70%;
   position: absolute;
   bottom: 0;
 }
 
-.title-description-services h3{
+.title-description-services h3 {
   font-weight: bold;
 }
 
-.text-description-services{
+.text-description-services {
   padding: 1.5rem;
 }
 
-.text-description-servi{
+.text-description-servi {
   font-size: 1.2rem;
   text-align: center;
 }
@@ -728,7 +734,7 @@
 /* Estilos para la sección de contacto */
 /* ********************************* */
 
-.container-contacto{
+.container-contacto {
   width: 90%;
   /* background-color: lightpink; */
   margin-right: auto;
@@ -736,13 +742,13 @@
   margin-top: 7rem;
 }
 
-.container-contacto-content{
+.container-contacto-content {
   width: 100%;
-  
+
   /* background-color: lightcoral; */
 }
 
-.container-title-contacto{
+.container-title-contacto {
   width: 100%;
   height: 20%;
   /* background-color: aqua; */
@@ -751,35 +757,35 @@
   margin-left: 10%
 }
 
-.text-contac-container{
+.text-contac-container {
   height: 40%;
   /* background-color: lightcyan; */
   display: flex;
 
 }
 
-.text-contac-container-inter{
+.text-contac-container-inter {
   width: 100%;
   /* background-color: red; */
   margin-left: 10%
 }
 
-.text-contact{
+.text-contact {
   font-size: 2.1rem;
-  
+
 }
 
 
-.container-icons-contacto{
+.container-icons-contacto {
   height: 30%;
   /* background-color: lightsalmon; */
   display: flex;
   margin-top: 1rem;
 }
 
-.container-text-contacto{
+.container-text-contacto {
   width: 100%;
-  
+
   /* background-color: red; */
   display: flex;
   justify-content: center;
@@ -787,18 +793,18 @@
   height: 60vh;
 }
 
-.title-contacto{
+.title-contacto {
   font-size: 6.5rem;
   font-weight: 800;
 }
 
-.container-icons-contacto{
+.container-icons-contacto {
   /* background-color: lightgreen; */
   display: flex;
   flex-direction: column;
 }
 
-.content-icon{
+.content-icon {
   height: 33.33%;
   /* background-color: lime; */
   width: 100%;
@@ -808,19 +814,19 @@
   margin-left: 10%;
 }
 
-.ppp{
+.ppp {
   display: flex;
   justify-content: center;
   align-items: center;
   /* background-color: red; */
 }
 
-.icons-contact{
+.icons-contact {
   font-size: 2rem;
 }
 
 /* Estilos para el formulario del contacto */
-.container-form-contacto{
+.container-form-contacto {
   width: 100%;
   height: 60vh;
   /* background-color: red; */
@@ -829,7 +835,7 @@
   justify-content: center;
 }
 
-.container-contact-form{
+.container-contact-form {
   width: 80%;
   height: 80%;
   background-color: #CCCCCC;
@@ -840,7 +846,7 @@
 
 /* Estilos del Footer */
 
-.container-footer{
+.container-footer {
   width: 100%;
   margin-top: 5rem;
   background-color: #1A237E;
@@ -851,20 +857,20 @@
 
 
 
-.fila-form{
+.fila-form {
   width: 100%;
   display: flex;
   flex-direction: column;
   /* background-color: lightblue; */
 }
 
-.primer-col{
+.primer-col {
   width: 50%;
   height: 100%;
   /* background-color: lightcoral; */
 }
 
-.container-logo{
+.container-logo {
   width: 100%;
   height: 20vh;
   /* background-color: lightcoral; */
@@ -874,25 +880,25 @@
 }
 
 
-.container-soluciones{
+.container-soluciones {
   width: 100%;
   height: 20vh;
   /* background-color: lightgreen; */
 }
 
-.container-compania{
+.container-compania {
   width: 100%;
   height: 20vh;
   /* background-color: lightpink; */
 }
 
-.container-redes{
+.container-redes {
   width: 100%;
   height: 20vh;
   /* background-color: lightsalmon; */
 }
 
-.container-title-soluciones{
+.container-title-soluciones {
   width: 100%;
   height: 30%;
   /* background-color: red; */
@@ -915,7 +921,7 @@
 }
 
 
-.title-redes{
+.title-redes {
   width: 100%;
   height: 50%;
   /* background-color: lightpink; */
@@ -924,7 +930,7 @@
   align-items: center;
 }
 
-.container-icons-redes{
+.container-icons-redes {
   width: 100%;
   height: 50%;
   /* background-color: red; */
@@ -933,10 +939,68 @@
   align-items: center;
 }
 
-.icon-item-redes{
+.icon-item-redes {
   font-size: 3rem;
   margin-right: 1.5rem;
 }
 
 
+/* Media Queri para dispositivos pequeños */
 
+@media screen and (max-width: 767px) {
+
+
+  .body-p {
+    padding: 0.5rem;
+  }
+
+  .body-p {
+    width: 100%;
+  }
+
+  .main-box-inicio {
+    height: 50vh;
+  }
+
+  .text-title-inicio {
+    display: none;
+  }
+
+  .text-title-inicio2 {
+    font-size: 2rem;
+    display: block;
+    text-align: center  ;
+  }
+
+  .img-asteroide, .img-asteroide2{
+    display: none;
+  }
+
+ 
+  .text-inicio {
+    width: 45%;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  .text-inicio {
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .btn-x {
+    width: 60%;
+    border-radius: 2rem;
+    height: 40%;
+    font-size: 1.3rem;
+  }
+
+  .container-button-inicio{
+    display: flex;
+    justify-content: center;
+  }
+  
+}
