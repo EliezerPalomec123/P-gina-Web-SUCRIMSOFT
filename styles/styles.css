@@ -84,6 +84,10 @@
   right: 25%;
 }
 
+.content {
+  display: none;
+}
+
 
 
 .fila {
@@ -956,6 +960,8 @@
 
 @media screen and (max-width: 767px) {
 
+  /* Estilos para la sección de inicio */
+
   .body-p {
     padding: 0.5rem;
   }
@@ -972,21 +978,13 @@
     display: none;
   }
 
-  /* .text-title-inicio2 {
-    font-size: 2rem;
-    display: block;
-    text-align: center  ;
-  } */
-
-  
-
   .content {
     display: block;
     position: absolute;
     top: 50%;
     /* Cambiado de 50% a 0 */
     left: 50%;
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
     /* Eliminado el desplazamiento vertical */
     height: 160px;
     overflow: hidden;
@@ -1091,10 +1089,6 @@
     }
   }
 
-
-
-
-
   .img-asteroide,
   .img-asteroide2 {
     display: none;
@@ -1119,4 +1113,55 @@
     justify-content: center;
   }
 
+
+  /* Sección de nosotros */
+  .container-content-nosotros-mobile{
+    height: 40vh;
+    background-color: #CCCCCC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+  }
+
+  .container-title-nosotros-mobile{
+    width: 95%;
+    height: 40%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle-nosotros-mobile{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #1A237E;
+  }
+
+  .rest-text-nosotros-mobile{
+    font-size: 2rem;
+    font-weight: 800;
+  }
+
+  .circle-nosotros-mobile{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+  }
+
+  .container-description-nosotros-mobile{
+    width: 95%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    /* background-color: green; */
+  }
 }
+
+/* Estilos para dispositivos medianos */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {}
