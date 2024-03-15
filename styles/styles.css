@@ -958,7 +958,7 @@
 
 /* Media Queri para dispositivos pequeños */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
 
   /* Estilos para la sección de inicio */
 
@@ -971,7 +971,8 @@
   }
 
   .main-box-inicio {
-    height: 60vh;
+    height: 25rem;
+    width: 100%;
   }
 
   .text-title-inicio {
@@ -1116,13 +1117,14 @@
 
   /* Sección de nosotros */
   .container-content-nosotros-mobile{
-    height: 40vh;
+    height: 16rem;
     background-color: #CCCCCC;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .container-title-nosotros-mobile{
@@ -1152,7 +1154,9 @@
     align-items: center;
     font-size: 2rem;
     color: white;
+    font-weight: 800;
   }
+
 
   .container-description-nosotros-mobile{
     width: 95%;
