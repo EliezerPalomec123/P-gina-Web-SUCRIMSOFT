@@ -650,6 +650,11 @@
 /* ********************************* */
 /* Estilos para la sección de servicios */
 /* ********************************* */
+
+.services-sm{
+  display: none;
+}
+
 .container-servicios {
   width: 100%;
   height: 60vh;
@@ -1217,8 +1222,20 @@
   }
 
   /* Sección de servicios */
+
+  .services-lg{
+    display: none;
+  }
+
+  .services-sm{
+    display: block;
+  }
+  
   .container-servicios{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
   }
 
   .container-item-servicio{
@@ -1231,6 +1248,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 2rem;
   }
 
 
@@ -1265,7 +1283,7 @@
     margin-right: auto;
     margin-left: auto;
     /* background-color: lightgreen; */
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: center;
     display: flex;
     padding: 0.5rem;
