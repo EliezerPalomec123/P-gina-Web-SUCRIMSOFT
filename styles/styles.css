@@ -758,106 +758,66 @@
   margin-left: auto;
   margin-top: 7rem;
 }
-
+/* 
 .container-contacto-content {
-  width: 100%;
-
-  /* background-color: lightcoral; */
-}
-
-.container-title-contacto {
-  width: 100%;
-  height: 20%;
-  /* background-color: aqua; */
-  display: flex;
-  align-items: center;
-  margin-left: 10%
-}
-
-.text-contac-container {
-  height: 40%;
-  /* background-color: lightcyan; */
-  display: flex;
-
-}
-
-.text-contac-container-inter {
-  width: 100%;
-  /* background-color: red; */
-  margin-left: 10%
-}
-
-.text-contact {
-  font-size: 2.1rem;
-
-}
-
-
-.container-icons-contacto {
-  height: 30%;
-  /* background-color: lightsalmon; */
-  display: flex;
-  margin-top: 1rem;
-}
+} */
 
 .container-text-contacto {
   width: 100%;
-
   /* background-color: red; */
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 60vh;
 }
 
-.title-contacto {
-  font-size: 6.5rem;
-  font-weight: 800;
-}
-
-.container-icons-contacto {
-  /* background-color: lightgreen; */
-  display: flex;
-  flex-direction: column;
-}
-
-.content-icon {
-  height: 33.33%;
-  /* background-color: lime; */
+.container-title-contacto{
   width: 100%;
+  height: 13vh;
+  /* background-color: lightcoral; */
   display: flex;
   align-items: center;
-  width: 90%;
-  margin-left: 10%;
+  font-size: 6rem;
+  font-weight: 800  ;
 }
 
-.ppp {
+.container-text-description-contacto{
+  width: 100%;
+  height: 30vh;
+  /* background-color: lightgreen; */
+  margin-right: auto;
+  margin-left: auto;
   display: flex;
   justify-content: center;
-  align-items: center;
-  /* background-color: red; */
+  font-size: 2.5rem;
 }
 
-.icons-contact {
+.container-icons-contacto{
+  width: 100%;
+  height: 18vh;
+  /* background-color: lightsalmon; */
+}
+
+.container-item-icon{
+  width: 100%;
+  height: 33.33%;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+}
+
+.container-icon{
   font-size: 2rem;
 }
 
-/* Estilos para el formulario del contacto */
-.container-form-contacto {
-  width: 100%;
-  height: 60vh;
-  /* background-color: red; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.container-dscription-icon{
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
-.container-contact-form {
-  width: 80%;
-  height: 80%;
-  background-color: #CCCCCC;
-  border-radius: 5rem;
-}
+
+
+
 
 
 
@@ -1319,6 +1279,54 @@
     height: 100%;
     object-fit: cover;
   }
+
+  /* Estilos para la sección de contacto */
+
+  .container-contacto{
+    width: 100%;
+  }
+
+  .container-title-contacto{
+    font-size: 1.5rem;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-text-description-contacto{
+    font-size: 1rem;
+    height: 8rem;
+    text-align: center;
+    line-height: 2rem;
+    /* background-color: red; */
+  }
+  
+  .container-item-icon{
+    width: 100%;
+    /* background: lightgreen; */
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-icon{
+    font-size: 1rem;
+    /* background-color: red; */
+  }
+
+  .container-dscription-icon{
+    font-size: 1rem;
+    /* background-color: lightgreen; */
+    margin: 0;
+    margin-left: 1rem;
+  }
+
+  .container-icons-contacto{
+    height: 15vh;
+    justify-content: center;
+    /* background-color: lightcoral; */
+  }
+  
 }
 
 /* Estilos para dispositivos medianos */
