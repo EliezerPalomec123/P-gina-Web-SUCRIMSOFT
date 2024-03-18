@@ -1171,8 +1171,8 @@
   }
 
   .circle-nosotros-mobile{
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     background-color: #1A237E;
   }
@@ -1198,6 +1198,10 @@
     display: flex;
     align-items: center;
     /* background-color: green; */
+  }
+
+  .text-description-nosotros-mobile{
+    text-align: center;
   }
 
   /* Seccción de more-us */
