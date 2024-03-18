@@ -1148,6 +1148,8 @@
     height: 55%;
     /* background-color: lightgreen; */
     position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
   }
 
   .image-nosotros-mobile{
