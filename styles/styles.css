@@ -1133,8 +1133,8 @@
   }
 
   .container-content-nosotros-mobile{
-    height: 16rem;
-    background-color: #CCCCCC;
+    height: 26rem;
+    /* background-color: #CCCCCC; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1143,32 +1143,50 @@
     margin-bottom: 1.5rem;
   }
 
+  .container-image-nosotros-mobile{
+    width: 95%;
+    height: 55%;
+    /* background-color: lightgreen; */
+    position: relative;
+  }
+
+  .image-nosotros-mobile{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
   .container-title-nosotros-mobile{
     width: 95%;
-    height: 40%;
-    /* background-color: red; */
+    height: 55%;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Ajustar para centrar */
+    z-index: 5;
   }
 
   .circle-nosotros-mobile{
-    width: 90px;
-    height: 90px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background-color: #1A237E;
   }
 
   .rest-text-nosotros-mobile{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 800;
   }
 
   .circle-nosotros-mobile{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     font-weight: 800;
   }
@@ -1176,7 +1194,7 @@
 
   .container-description-nosotros-mobile{
     width: 95%;
-    height: 60%;
+    height: 45%;
     display: flex;
     align-items: center;
     /* background-color: green; */
@@ -1230,7 +1248,7 @@
   .services-sm{
     display: block;
   }
-  
+
   .container-servicios{
     width: 100%;
     display: flex;
