@@ -19,6 +19,7 @@
   margin-top: 2rem;
   padding: 1rem;
   border-radius: 50px;
+  
 }
 
 .container-navbar {
@@ -1167,6 +1168,40 @@
     text-align: center;
   }
 
+
+  /* Sección de nosotros mobile with icons */
+  .section-nosotros-with-icons-mobile{
+    width: 100%;
+  }
+
+  .container-icon-nosotros-mobile{
+    width: 100%;
+    height: 6rem;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: 800;
+    color: #1A237E;
+  }
+
+  .title-nosotros-mobile{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+  }
+
+  .container-text-nosotros-mobile{
+    width: 90%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   /* Seccción de more-us */
   .nuevo-div{
     height: 50vh;
@@ -1207,6 +1242,18 @@
   }
 
   /* Sección de servicios */
+
+  .title-section-services{
+    width: 100%;
+    height: 3rem;
+    
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
 
   .services-lg{
     display: none;
@@ -1327,6 +1374,8 @@
     justify-content: center;
     /* background-color: lightcoral; */
   }
+
+
   
 }
 
