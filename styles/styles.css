@@ -1174,6 +1174,10 @@
     width: 100%;
   }
 
+  .container-item-nosotros-mobile{
+    margin-bottom: 3.5rem;
+  }
+
   .container-icon-nosotros-mobile{
     width: 100%;
     height: 6rem;
@@ -1196,10 +1200,11 @@
   }
 
   .container-text-nosotros-mobile{
-    width: 90%;
+    width: 95%;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+    font-size: 1rem;
   }
 
   /* Seccción de more-us */
