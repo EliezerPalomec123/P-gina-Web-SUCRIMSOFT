@@ -1221,15 +1221,21 @@
 
 
   /* Sección de more-us mobile */
+
+  .container-item-more-us-mobile{
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
   .container-more-us-mobile{
     width: 100%;
-    background-color: lightpink;
+    
   }
 
   .container-imagen-more-us-mobile{
     width: 100%;
     background-color: lightcoral;
-    height: 20rem;
+    height: 23rem;
     margin-right: auto;
     margin-left: auto;
     position: relative;
