@@ -547,7 +547,7 @@
 
 .container-description-tecnologias {
   /* background-color: red; */
-  height: 60%;
+  height: 75%;
   width: 95%;
   display: flex;
   justify-content: center;
@@ -1288,7 +1288,7 @@
 
   .carrousel-tecnologias {
     margin: 0;
-    height: 25vh;
+    height: 14rem;
     width: 90%;
     margin-right: auto;
     margin-left: auto;
