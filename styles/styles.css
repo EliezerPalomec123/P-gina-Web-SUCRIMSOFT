@@ -659,7 +659,7 @@
 .container-servicios {
   width: 100%;
   height: 60vh;
-  margin-top: 10rem;
+  margin-top: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1090,7 +1090,7 @@
   }
 
   .fila-nosotros-mobile{
-    display: block;
+    /* display: block; */
   }
 
   .container-content-nosotros-mobile{
@@ -1208,6 +1208,11 @@
   }
 
   /* Seccción de more-us */
+
+  #more-us{
+    display: none;
+  }
+
   .nuevo-div{
     height: 50vh;
   }
@@ -1276,6 +1281,10 @@
   
 
   /* Sección de Tecnologías */
+
+  .container-tecnologias{
+    margin-bottom: 0;
+  }
 
   .carrousel-tecnologias {
     margin: 0;
