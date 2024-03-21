@@ -1115,7 +1115,7 @@ ul.contact-info li {
 /* Estilos para dispositivos medianos */
 @media only screen and (max-width: 1150px) {
   .main-box-inicio {
-    height: 50vh;
+    height: 30rem;
   }
 
   .text-title-inicio {
