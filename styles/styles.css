@@ -47,7 +47,8 @@
 /* ********************************* */
 
 .main-box-inicio {
-  height: 70vh;
+  /* height: 70vh; */
+  height: 45rem;
   /* background-color: lightpink; */
   border-radius: 50px;
   position: relative;
@@ -1035,7 +1036,7 @@ ul.contact-info li {
 /* Estilos para dispositivos medianos */
 @media only screen and (max-width: 1700px) {
   .main-box-inicio {
-    height: 60vh;
+    height: 40rem;
   }
 
   .img-asteroide2 {
@@ -1063,14 +1064,14 @@ ul.contact-info li {
 /* Estilos para dispositivos medianos */
 @media only screen and (max-width: 1500px) {
   .main-box-inicio {
-    height: 55vh;
+    height: 35rem;
   }
 }
 
 /* Estilos para dispositivos medianos */
 @media only screen and (max-width: 1300px) {
   .main-box-inicio {
-    height: 50vh;
+    height: 35rem;
   }
 
   .text-title-inicio {
@@ -1136,7 +1137,6 @@ ul.contact-info li {
 
   /* Estilos para las imagenes de asteroide */
   .img-asteroide {
-
     width: 43%;
     max-width: 35rem;
     height: auto;
@@ -1157,11 +1157,53 @@ ul.contact-info li {
 }
 
 
+/* Estilos para dispositivos medianos */
+@media only screen and (max-width: 1050px) {
+
+  .img-asteroide2{
+    display: none;
+  }
+
+  .text-title-inicio {
+    width: 70%;
+    font-weight: 900;
+  }
+
+  .text-inicio {
+    font-size: 1.3rem;
+    text-align: start;
+    width: 75%;
+   
+  }
+}
+
+/* Estilos para dispositivos medianos */
+@media only screen and (max-width: 1000px) {
+
+  .img-asteroide{
+    display: none;
+  }
+
+  .text-title-inicio {
+    width: 100%;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .text-inicio {
+    font-size: 1.3rem;
+    text-align: start;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
 
 
 /* Media Queri para dispositivos pequeños */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
 
   /* Estilos para la sección de inicio */
 
