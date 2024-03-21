@@ -170,6 +170,10 @@
 /* Estilos para la sección de nosotros */
 /* ********************************* */
 
+.nosotros-with-icons{
+  display: none;
+}
+
 .fila-nosotros-mobile{
   display: none;
 }
@@ -318,6 +322,11 @@
 /* ********************************* */
 /* Estilos para la sección de more-us */
 /* ********************************* */
+
+.more-us-mobile{
+  display: none;
+}
+
 .more-us {
   width: 100%;
   margin-top: 5rem;
@@ -751,72 +760,157 @@
 /* ********************************* */
 /* Estilos para la sección de contacto */
 /* ********************************* */
-
-.container-contacto {
-  width: 90%;
-  /* background-color: lightpink; */
-  margin-right: auto;
+.container-contacto{
+  width: 85%;
+  
   margin-left: auto;
-  margin-top: 7rem;
-}
-/* 
-.container-contacto-content {
-} */
-
-.container-text-contacto {
-  width: 100%;
-  /* background-color: red; */
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.container-title-contacto{
-  width: 100%;
-  height: 13vh;
-  /* background-color: lightcoral; */
-  display: flex;
-  align-items: center;
-  font-size: 6rem;
-  font-weight: 800  ;
-}
-
-.container-text-description-contacto{
-  width: 100%;
-  height: 30vh;
-  /* background-color: lightgreen; */
   margin-right: auto;
-  margin-left: auto;
-  display: flex;
-  justify-content: center;
-  font-size: 2.5rem;
+  margin-top: 4rem;
 }
 
-.container-icons-contacto{
+
+.container-contact-info{
   width: 100%;
-  height: 18vh;
-  /* background-color: lightsalmon; */
 }
 
-.container-item-icon{
-  width: 100%;
-  height: 33.33%;
-  /* background-color: aqua; */
-  display: flex;
-  align-items: center;
-}
-
-.container-icon{
+.text-contact-info{
   font-size: 2rem;
+  width: 95%;
 }
 
-.container-dscription-icon{
-  margin-left: 1rem;
-  font-size: 1.5rem;
-  font-weight: bold;
+.contact-info {
+  padding: 0 30px 0px 0;
+}
+
+h2.contact-title {
+  font-size: 6rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  padding: 0 30px 0px 0;
+}
+
+ul.contact-info {
+  margin-top: 30px;
+}
+
+ul.contact-info li {
+  margin-bottom: 22px;
+}
+
+ul.contact-info span {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+ul.contact-info li {
+  display: flex;
+  width: 100%;
+}
+
+.info-left {
+  width: 10%;
+}
+
+.info-left i {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 30px;
+}
+
+.info-right h4 {
+  
+  font-size: 18px;
 }
 
 
+.fila-nosotros-prueba{
+ padding-left: 0;
+}
+
+.prueba-content{
+  width: 100%;
+  height: 6rem;
+  background-color: lightcyan;
+}
+
+
+.col-prueba{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper{
+  width: 90%;
+  background: #CCCCCC;
+  padding: 30px;
+  border-radius: 2rem;
+ 
+}
+
+.wrapper .title h1{
+  
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.contact-form{
+  display: flex;
+}
+
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-fields,
+.msg{
+  width: 48%;
+}
+
+.input-fields .input,
+.msg textarea{
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  width: 100%;
+}
+
+.msg textarea{
+  height: 212px;
+}
+
+
+
+.btn-form-contact {
+    background: #1A237E;
+    text-align: center;
+    padding: 15px;
+    border-radius: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px){
+  .contact-form{
+    flex-direction: column;
+  }
+  .msg textarea{
+    height: 80px;
+  }
+  .input-fields,
+  .msg{
+    width: 100%;
+  }
+}
 
 
 
@@ -1170,6 +1264,10 @@
 
 
   /* Sección de nosotros mobile with icons */
+  .nosotros-with-icons{
+    display: block;
+  }
+
   .section-nosotros-with-icons-mobile{
     width: 100%;
   }
@@ -1345,7 +1443,7 @@
 
   .container-item-servicio{
     width: 100%;
-    height: 35rem;
+    height: 36rem;
     background-color: #CCCCCC;
     border-radius: 2rem;
     overflow: hidden;
@@ -1359,14 +1457,14 @@
 
   .container-title-item-servicio{
     width: 90%;
-    height: 15%;
+    height: 18%;
     /* background-color: lightpink; */
     margin-right: auto;
     margin-left: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: bold;
     text-align: center;
   }

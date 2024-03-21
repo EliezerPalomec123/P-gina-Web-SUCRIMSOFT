@@ -312,7 +312,7 @@
         </section>
 
         <!-- Sección de nosotros con íconos -->
-        <section>
+        <section class="nosotros-with-icons">
 
           <!-- Título de la sección -->
           <div class="title-section-services">
@@ -371,7 +371,7 @@
         </section>
 
         <!-- Sección de more-us mobile -->
-        <section>
+        <section class="more-us-mobile">
 
           <div class="title-section-services">
             <span>Más sobre nosotros</span>
@@ -398,7 +398,9 @@
                 <img class="img-mobile-more-us" src="images/enfoque-valor.jpeg" alt="imagen celula">
                 <div class="text-overlay"><!-- Nuevo elemento para el texto -->
                   <h2>Enfoque de valor</h2>
-                  <p>Nuestros valores nos mueven a responder más eficazmente al acelerado entorno empresarial, y garantizan una interacción armoniosa dentro y fuera de ScrimSoft, que nos lleva a la excelencia profesional y a ser un socio de negocios valioso para nuestros clientes.</p>
+                  <p>Nuestros valores nos mueven a responder más eficazmente al acelerado entorno empresarial, y
+                    garantizan una interacción armoniosa dentro y fuera de ScrimSoft, que nos lleva a la excelencia
+                    profesional y a ser un socio de negocios valioso para nuestros clientes.</p>
                 </div>
               </div>
             </div>
@@ -409,7 +411,8 @@
                 <img class="img-mobile-more-us" src="images/orien-exi.jpg" alt="imagen celula">
                 <div class="text-overlay"><!-- Nuevo elemento para el texto -->
                   <h2>Orientados al éxito</h2>
-                  <p>Dedicados a la entrega oportuna de soluciones con el máximo valor para usted. Nuestro éxito se define por el éxito de nuestros clientes.</p>
+                  <p>Dedicados a la entrega oportuna de soluciones con el máximo valor para usted. Nuestro éxito se
+                    define por el éxito de nuestros clientes.</p>
                 </div>
               </div>
             </div>
@@ -421,7 +424,8 @@
                 <img class="img-mobile-more-us" src="images/cercania-cons.jpeg" alt="imagen celula">
                 <div class="text-overlay"><!-- Nuevo elemento para el texto -->
                   <h2>Cercanía constante</h2>
-                  <p>Estamos siempre a la disposicion para brindarte el asesoramiento continuo sobre nuestro servicios, asi como el constante mantenimiento y actualizacion de requerimientos a la medida</p>
+                  <p>Estamos siempre a la disposicion para brindarte el asesoramiento continuo sobre nuestro servicios,
+                    asi como el constante mantenimiento y actualizacion de requerimientos a la medida</p>
                 </div>
               </div>
             </div>
@@ -1124,84 +1128,69 @@
 
         </section>
 
-        <!-- Seccion de Contacto -->
+        <!-- Sección de Contacto -->
         <section id="contacto">
-
-          <!-- contenedor principal de la sección de contacto -->
+          <!-- Contenedor principal para la sección -->
           <div class="container-contacto">
-            <div class="row container-contacto-content">
+            <div class="row fila-nosotros-prueba no-gutters">
 
-
-
-              <div class="col col-lg-6 col-md-12 col-12 columna-texts-contacto">
-
-                <div class="container-text-contacto">
-
-                  <!-- Contenedor para el título -->
-                  <div class="container-title-contacto">
-                    <span>Contáctanos.</span>
-                  </div>
-
-                  <!-- Contenedor para el texto de la descripción -->
-                  <div class="container-text-description-contacto">
-                    <p>Mantengamonos en contacto, potenciamos equipos y empresas excepcionales. <br>
-                      Escribenos, queremos conocer sobre tu empresa y tus proyectos.</p>
-                  </div>
-
-                  <!-- Contenedor para los íconos -->
-                  <div class="container-icons-contacto">
-                    <div class="container-item-icon">
-
-                      <div class="container-icon">
+              <!-- Columna para manejar el texto -->
+              <div class="col col-lg-6 col-12 d-flex align-items-center">
+                <div class="container-contact-info">
+                  <h2 class="contact-title">Contáctanos</h2>
+                  <p class="text-contact-info">Mantengamonos en contacto, potenciamos equipos y empresas excepcionales. <br>
+                    Escribenos, queremos conocer sobre tu empresa y tus proyectos.</p>
+                  <ul class="contact-info">
+                    <li>
+                      <div class="info-left">
                         <i class="bi bi-geo-alt-fill"></i>
                       </div>
-
-                      <!-- Contenedor para la descripción del ícono -->
-                      <div class="container-dscription-icon">
-                        <span>70844 San Jerónimo Coatlán, Oaxaca</span>
+                      <div class="info-right">
+                        <h4>+11223344550</h4>
                       </div>
-                    </div>
-
-                    <div class="container-item-icon">
-
-                      <div class="container-icon">
+                    </li>
+                    <li>
+                      <div class="info-left">
                         <i class="bi bi-envelope"></i>
                       </div>
-
-                      <!-- Contenedor para la descripción del ícono -->
-                      <div class="container-dscription-icon">
-                        <span>djl.juarez@sucrimsoft.com</span>
+                      <div class="info-right">
+                        <h4>info@example.com</h4>
                       </div>
-                    </div>
-
-
-                    <div class="container-item-icon">
-
-                      <div class="container-icon">
+                    </li>
+                    <li>
+                      <div class="info-left">
                         <i class="bi bi-whatsapp"></i>
                       </div>
-
-                      <!-- Contenedor para la descripción del ícono -->
-                      <div class="container-dscription-icon">
-                        <span>+52 951 23 29 382 / +52 951 31 01 543</span>
+                      <div class="info-right">
+                        <h4>1243 Stree New Chandigarh, INDIA</h4>
                       </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Columna para manejar el formulario -->
+              <div class="col col-lg-6 col-prueba">
+                <div class="wrapper">
+                 
+                  <div class="contact-form">
+                    <div class="input-fields">
+                      <input type="text" class="input" placeholder="Nombre">
+                      <input type="text" class="input" placeholder="E-mail">
+                      <input type="text" class="input" placeholder="Número de teléfono">
+                      <input type="text" class="input" placeholder="Asunto">
+                    </div>
+                    <div class="msg">
+                      <textarea placeholder="Escribe aquí tu mensaje"></textarea>
+                      <div class="btn-form-contact">Enviar</div>
                     </div>
                   </div>
                 </div>
-
               </div>
 
-              <div class="col col-lg-6 col-md-12 col-12">
-                <div class="container-form-contacto">
-                  <div class="container-contact-form">
 
-
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
-
         </section>
 
 
