@@ -1045,6 +1045,16 @@ ul.contact-info li {
     /* Cambiado a un valor porcentual */
   }
 
+  .container-image {
+    width: 70%;
+    height: 80%;
+  }
+
+  .container-image-visi {
+    width: 70%;
+    height: 80%;
+  }
+
   .text-title-inicio {
     font-size: 4rem;
     width: 2rem;
