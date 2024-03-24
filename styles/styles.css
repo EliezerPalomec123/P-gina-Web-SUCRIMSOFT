@@ -70,30 +70,23 @@
 .img-asteroide {
   position: absolute;
   width: 50%;
-  /* Cambiado a un valor porcentual */
   max-width: 35rem;
-  /* Agregado un ancho máximo */
   height: auto;
-  /* Para mantener la proporción original */
-  margin-top: -20%;
-  /* Cambiado a un valor porcentual */
+  margin-top: -16rem;
   z-index: 10;
-  right: 5%;
-
+  right: 0;
+  /* background-color: red; */
 }
 
 .img-asteroide2 {
   position: absolute;
   width: 50%;
-  /* Cambiado a un valor porcentual */
   max-width: 20rem;
-  /* Agregado un ancho máximo */
   height: auto;
-  /* Para mantener la proporción original */
-  margin-top: -40%;
-  /* Cambiado a un valor porcentual */
+  margin-top: -40rem;
   z-index: 11;
-  right: 25%;
+  right: 25rem;
+  /* background-color: lightcoral; */
 }
 
 .content {
@@ -1076,6 +1069,29 @@ ul.contact-info li {
   .main-box-inicio {
     height: 35rem;
   }
+
+  .img-asteroide {
+    width: 37%;
+  }
+
+  .text-nosotros{
+    font-size: 1.5em;
+  }
+
+}
+
+@media only screen and (max-width: 1350px) {
+
+  .container-image {
+    width: 70%;
+    height: 70%;
+  }
+
+  .container-image-visi {
+    width: 80%;
+    height: 80%;
+  }
+
 }
 
 /* Estilos para dispositivos medianos */
@@ -1212,7 +1228,6 @@ ul.contact-info li {
 
 
 /* Media Queri para dispositivos pequeños */
-
 @media screen and (max-width: 600px) {
 
   /* Estilos para la sección de inicio */
@@ -1515,6 +1530,10 @@ ul.contact-info li {
 
 
   /* Sección de more-us mobile */
+
+  .more-us-mobile{
+    display: block;
+  }
 
   .container-item-more-us-mobile {
     width: 100%;
