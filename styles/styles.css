@@ -6,6 +6,17 @@
   box-sizing: border-box;
 }
 
+.title-sections-mobile {
+  width: 100%;
+  height: 3rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
 /* Estilos para el header */
 .prueba-nav {
   height: 5rem;
@@ -178,10 +189,6 @@
   display: none;
 }
 
-.fila-nosotros-mobile {
-  display: none;
-}
-
 .container-content-circle {
   width: 35%;
   height: 35%;
@@ -321,6 +328,44 @@
 
 .circle2-visi {
   justify-content: flex-start;
+}
+
+/* Nosotros with icons */
+.section-nosotros-with-icons-mobile {
+  width: 100%;
+}
+
+.container-item-nosotros-mobile {
+  margin-bottom: 3.5rem;
+}
+
+.container-icon-nosotros-mobile {
+  width: 100%;
+  height: 6rem;
+  /* background-color: lightcoral; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-weight: 800;
+  color: #1A237E;
+}
+
+.title-nosotros-mobile {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.container-text-nosotros-mobile {
+  width: 95%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1rem;
 }
 
 
@@ -518,6 +563,64 @@
   background-color: #1A237E;
 }
 
+  /* Sección de more-us mobile */
+
+  .container-item-more-us-mobile {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .container-more-us-mobile {
+    width: 100%;
+
+  }
+
+  .container-imagen-more-us-mobile {
+    width: 100%;
+    background-color: lightcoral;
+    height: 23rem;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    border-radius: 2rem;
+    overflow: hidden;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Fondo oscuro con transparencia */
+    z-index: 1;
+  }
+
+  .text-overlay {
+    width: 90%;
+    font-size: 1.1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* Color del texto */
+    text-align: center;
+    z-index: 2;
+
+  }
+
+  .img-mobile-more-us {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+/* Estilos para la segunda propuesta de more-us-mobile */
 
 /* ********************************* */
 /* Estilos para la sección de tecnologias */
@@ -540,7 +643,7 @@
 
 .texts-tecnologias {
   /* background-color: lightcoral; */
-  height: 35vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -549,7 +652,6 @@
 
 .container-title-tecnologias {
   /* background-color: lightpink; */
-  height: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -561,7 +663,6 @@
 
 .container-description-tecnologias {
   /* background-color: red; */
-  height: 75%;
   width: 95%;
   display: flex;
   justify-content: center;
@@ -569,6 +670,7 @@
   margin-right: auto;
   margin-left: auto;
   color: white;
+  text-align: center;
 }
 
 
@@ -672,12 +774,12 @@
 
 .container-servicios {
   width: 100%;
-  height: 60vh;
+  height: 40rem;
   margin-top: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: red; */
+  background-color: lightcoral;
   position: relative;
 }
 
@@ -723,7 +825,11 @@
   left: 50%;
   transform: translateX(-50%);
   top: -13rem;
+  background-color: red;
+  border-radius: 3rem;
 }
+
+
 
 .container-image-slide-services .image-services {
   position: absolute;
@@ -905,6 +1011,11 @@ ul.contact-info li {
   text-transform: uppercase;
 }
 
+.bi-facebook:hover {
+  background-color: #d62976;
+  transition-duration: .3s;
+}
+
 @media screen and (max-width: 600px) {
   .contact-form {
     flex-direction: column;
@@ -919,9 +1030,6 @@ ul.contact-info li {
     width: 100%;
   }
 }
-
-
-
 
 
 /* Estilos del Footer */
@@ -1022,742 +1130,4 @@ ul.contact-info li {
 .icon-item-redes {
   font-size: 3rem;
   margin-right: 1.5rem;
-}
-
-
-
-/* Estilos para dispositivos medianos */
-@media only screen and (max-width: 1700px) {
-  .main-box-inicio {
-    height: 40rem;
-  }
-
-  .img-asteroide2 {
-
-    margin-top: -45%;
-    /* Cambiado a un valor porcentual */
-  }
-
-  .container-image {
-    width: 70%;
-    height: 80%;
-  }
-
-  .container-image-visi {
-    width: 70%;
-    height: 80%;
-  }
-
-  .text-title-inicio {
-    font-size: 4rem;
-    width: 2rem;
-    font-weight: 900;
-  }
-
-  .text-inicio {
-    font-size: 1.5rem;
-    text-align: justify;
-  }
-
-  .btn-x {
-    width: 20%;
-  }
-}
-
-/* Estilos para dispositivos medianos */
-@media only screen and (max-width: 1500px) {
-  .main-box-inicio {
-    height: 35rem;
-  }
-
-  .img-asteroide {
-    width: 37%;
-  }
-
-  .text-nosotros{
-    font-size: 1.5em;
-  }
-
-}
-
-@media only screen and (max-width: 1350px) {
-
-  .container-image {
-    width: 70%;
-    height: 70%;
-  }
-
-  .container-image-visi {
-    width: 80%;
-    height: 80%;
-  }
-
-}
-
-/* Estilos para dispositivos medianos */
-@media only screen and (max-width: 1300px) {
-  .main-box-inicio {
-    height: 35rem;
-  }
-
-  .text-title-inicio {
-    font-size: 3rem;
-    width: 2rem;
-    font-weight: 900;
-  }
-
-  .text-inicio {
-    font-size: 1.3rem;
-    text-align: start;
-  }
-
-
-  .btn-x {
-    width: 20%;
-  }
-
-  /* Estilos para las imagenes de asteroide */
-  .img-asteroide {
-
-    width: 43%;
-    max-width: 35rem;
-    height: auto;
-    margin-top: -20%;
-    z-index: 10;
-    right: 0%;
-
-  }
-
-  .img-asteroide2 {
-    width: 37%;
-    max-width: 20rem;
-    height: auto;
-    margin-top: -45%;
-    z-index: 11;
-    right: 20%;
-  }
-}
-
-/* Estilos para dispositivos medianos */
-@media only screen and (max-width: 1150px) {
-  .main-box-inicio {
-    height: 30rem;
-  }
-
-  .text-title-inicio {
-    font-size: 3rem;
-    width: 60%;
-    font-weight: 900;
-  }
-
-  .text-inicio {
-    font-size: 1.3rem;
-    text-align: start;
-    width: 55%;
-  }
-
-
-  .btn-x {
-    width: 20%;
-  }
-
-  /* Estilos para las imagenes de asteroide */
-  .img-asteroide {
-    width: 43%;
-    max-width: 35rem;
-    height: auto;
-    margin-top: -20%;
-    z-index: 10;
-    right: 0%;
-
-  }
-
-  .img-asteroide2 {
-    width: 30%;
-    max-width: 20rem;
-    height: auto;
-    margin-top: -53%;
-    z-index: 11;
-    right: 10%;
-  }
-}
-
-
-/* Estilos para dispositivos medianos */
-@media only screen and (max-width: 1050px) {
-
-  .img-asteroide2{
-    display: none;
-  }
-
-  .text-title-inicio {
-    width: 70%;
-    font-weight: 900;
-  }
-
-  .text-inicio {
-    font-size: 1.3rem;
-    text-align: start;
-    width: 75%;
-   
-  }
-}
-
-/* Estilos para dispositivos medianos */
-@media only screen and (max-width: 1000px) {
-
-  .img-asteroide{
-    display: none;
-  }
-
-  .text-title-inicio {
-    width: 100%;
-    font-weight: 900;
-    text-align: center;
-  }
-
-  .text-inicio {
-    font-size: 1.3rem;
-    text-align: start;
-    width: 100%;
-    text-align: center;
-  }
-}
-
-
-
-
-/* Media Queri para dispositivos pequeños */
-@media screen and (max-width: 600px) {
-
-  /* Estilos para la sección de inicio */
-
-  .body-p {
-    padding: 0.5rem;
-  }
-
-  .body-p {
-    width: 100%;
-  }
-
-  .main-box-inicio {
-    height: 25rem;
-    width: 100%;
-  }
-
-  .text-title-inicio {
-    display: none;
-  }
-
-  .content {
-    display: block;
-    position: absolute;
-    top: 50%;
-    /* Cambiado de 50% a 0 */
-    left: 50%;
-    transform: translate(-50%, 0);
-    /* Eliminado el desplazamiento vertical */
-    height: 160px;
-    overflow: hidden;
-    font-family: 'Lato', sans-serif;
-    font-size: 35px;
-    line-height: 40px;
-    color: white;
-  }
-
-  .content__container {
-    font-weight: 600;
-    overflow: hidden;
-    height: 40px;
-    padding: 0 40px;
-  }
-
-  .content__container:before {
-    content: '[';
-    left: 0;
-  }
-
-  .content__container:after {
-    content: ']';
-    position: absolute;
-    right: 0;
-  }
-
-  .content__container:before,
-  .content__container:after {
-    position: absolute;
-    top: 0;
-    color: #16a085;
-    font-size: 42px;
-    line-height: 40px;
-    animation-name: opacity;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-  }
-
-
-
-  .content__container__list {
-    margin-top: 0;
-    /* padding-left: 110px; */
-    padding-right: 50%;
-
-    text-align: center;
-    list-style: none;
-    animation-name: change;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-  }
-
-  .content__container__list__item {
-    line-height: 40px;
-
-  }
-
-  @keyframes opacity {
-
-    0%,
-    100% {
-      opacity: 0;
-    }
-
-    50% {
-      opacity: 1;
-    }
-  }
-
-  @keyframes change {
-
-    0%,
-    12.66%,
-    100% {
-      transform: translate3d(0, 0, 0);
-    }
-
-    16.66%,
-    29.32% {
-      transform: translate3d(0, -25%, 0);
-    }
-
-    33.32%,
-    45.98% {
-      transform: translate3d(0, -50%, 0);
-    }
-
-    49.98%,
-    62.64% {
-      transform: translate3d(0, -75%, 0);
-    }
-
-    66.64%,
-    79.3% {
-      transform: translate3d(0, -50%, 0);
-    }
-
-    83.3%,
-    95.96% {
-      transform: translate3d(0, -25%, 0);
-    }
-  }
-
-  .img-asteroide,
-  .img-asteroide2 {
-    display: none;
-  }
-
-  .text-inicio {
-    width: 100%;
-    font-weight: 500;
-    font-size: 1.1rem;
-    text-align: center;
-  }
-
-  .btn-x {
-    width: 12rem;
-    border-radius: 2rem;
-    height: 3.5rem;
-    font-size: 1.3rem;
-  }
-
-  .container-button-inicio {
-    display: flex;
-    justify-content: center;
-  }
-
-
-  /* Sección de nosotros */
-  .fila-nosotros {
-    display: none;
-  }
-
-
-
-  .container-content-nosotros-mobile {
-    height: 26rem;
-    /* background-color: #CCCCCC; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .container-image-nosotros-mobile {
-    width: 95%;
-    height: 55%;
-    /* background-color: lightgreen; */
-    position: relative;
-    border-radius: 1rem;
-    overflow: hidden;
-  }
-
-  .image-nosotros-mobile {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .container-title-nosotros-mobile {
-    width: 95%;
-    height: 55%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* Ajustar para centrar */
-    z-index: 5;
-  }
-
-  .circle-nosotros-mobile {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    background-color: #1A237E;
-  }
-
-  .rest-text-nosotros-mobile {
-    font-size: 1.5rem;
-    font-weight: 800;
-  }
-
-  .circle-nosotros-mobile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    color: white;
-    font-weight: 800;
-  }
-
-
-  .container-description-nosotros-mobile {
-    width: 95%;
-    height: 45%;
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-    /* background-color: green; */
-  }
-
-  .text-description-nosotros-mobile {
-    text-align: center;
-  }
-
-
-  /* Sección de nosotros mobile with icons */
-  .nosotros-with-icons {
-    display: block;
-  }
-
-  .section-nosotros-with-icons-mobile {
-    width: 100%;
-  }
-
-  .container-item-nosotros-mobile {
-    margin-bottom: 3.5rem;
-  }
-
-  .container-icon-nosotros-mobile {
-    width: 100%;
-    height: 6rem;
-    /* background-color: lightcoral; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 4rem;
-    font-weight: 800;
-    color: #1A237E;
-  }
-
-  .title-nosotros-mobile {
-    width: 100%;
-    height: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-  }
-
-  .container-text-nosotros-mobile {
-    width: 95%;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 1rem;
-  }
-
-  /* Seccción de more-us */
-
-  #more-us {
-    display: none;
-  }
-
-  .nuevo-div {
-    height: 50vh;
-  }
-
-  .enfoque-v {
-    padding: 0;
-    width: 100%;
-    height: 40vh;
-    margin-top: 2rem;
-  }
-
-
-  /* Sección de more-us mobile */
-
-  .more-us-mobile{
-    display: block;
-  }
-
-  .container-item-more-us-mobile {
-    width: 100%;
-    margin-bottom: 2rem;
-  }
-
-  .container-more-us-mobile {
-    width: 100%;
-
-  }
-
-  .container-imagen-more-us-mobile {
-    width: 100%;
-    background-color: lightcoral;
-    height: 23rem;
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
-    border-radius: 2rem;
-    overflow: hidden;
-  }
-
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    /* Fondo oscuro con transparencia */
-    z-index: 1;
-  }
-
-  .text-overlay {
-    width: 90%;
-    font-size: 1.1rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    /* Color del texto */
-    text-align: center;
-    z-index: 2;
-
-  }
-
-  .img-mobile-more-us {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-
-
-  /* Sección de Tecnologías */
-
-  .container-tecnologias {
-    margin-bottom: 0;
-  }
-
-  .carrousel-tecnologias {
-    margin: 0;
-    height: 14rem;
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .texts-tecnologias {
-    height: 18rem;
-  }
-
-
-  .container-description-tecnologias {
-    font-size: 1.2rem;
-    text-align: center;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-  }
-
-  .container-title-tecnologias {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    margin-top: 2rem;
-  }
-
-  /* Sección de servicios */
-
-  .title-section-services {
-    width: 100%;
-    height: 3rem;
-
-    margin-bottom: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    font-weight: 600;
-  }
-
-  .services-lg {
-    display: none;
-  }
-
-  .services-sm {
-    display: block;
-  }
-
-  .container-servicios {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    height: auto;
-  }
-
-  .container-item-servicio {
-    width: 100%;
-    height: 36rem;
-    background-color: #CCCCCC;
-    border-radius: 2rem;
-    overflow: hidden;
-    /* background-color: lightsalmon; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 2rem;
-  }
-
-
-  .container-title-item-servicio {
-    width: 90%;
-    height: 18%;
-    /* background-color: lightpink; */
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.4rem;
-    font-weight: bold;
-    text-align: center;
-  }
-
-  .container-image-item-servicio {
-    width: 90%;
-    height: 40%;
-    margin-right: auto;
-    margin-left: auto;
-    /* background-color:lightblue; */
-    position: relative;
-    border-radius: 1rem;
-    overflow: hidden;
-  }
-
-  .container-text-item-servicio {
-    width: 90%;
-    height: 40%;
-    margin-right: auto;
-    margin-left: auto;
-    /* background-color: lightgreen; */
-    font-size: 1.2rem;
-    text-align: center;
-    display: flex;
-    padding: 0.5rem;
-  }
-
-  .image-servicio-item {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  /* Estilos para la sección de contacto */
-
-  .container-contacto {
-    width: 100%;
-  }
-
-  .container-title-contacto {
-    font-size: 1.5rem;
-    width: 100%;
-    height: 3rem;
-    display: flex;
-    justify-content: center;
-  }
-
-  .container-text-description-contacto {
-    font-size: 1rem;
-    height: 8rem;
-    text-align: center;
-    line-height: 2rem;
-    /* background-color: red; */
-  }
-
-  .container-item-icon {
-    width: 100%;
-    /* background: lightgreen; */
-    display: flex;
-    justify-content: center;
-  }
-
-  .container-icon {
-    font-size: 1rem;
-    /* background-color: red; */
-  }
-
-  .container-dscription-icon {
-    font-size: 1rem;
-    /* background-color: lightgreen; */
-    margin: 0;
-    margin-left: 1rem;
-  }
-
-  .container-icons-contacto {
-    height: 15vh;
-    justify-content: center;
-    /* background-color: lightcoral; */
-  }
-
-
-
 }

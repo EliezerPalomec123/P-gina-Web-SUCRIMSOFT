@@ -1,0 +1,406 @@
+/* Responsive para la sección de inicio */
+@media only screen and (max-width: 1700px) {
+
+  /* Se modifica la posicion del asteroide superior */
+  .img-asteroide2 {
+    right: 18rem;
+  }
+
+  .text-inicio {
+    width: 50%;
+    font-weight: 500;
+    font-size: 1.8rem;
+    text-align: justify;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+
+  .main-box-inicio {
+    height: 40rem;
+  }
+
+  .img-asteroide {
+    width: 50%;
+    max-width: 30rem;
+  }
+
+  /* Se modifica la posicion del asteroide superior */
+  .img-asteroide2 {
+    right: 8rem;
+  }
+
+  .text-inicio {
+    width: 60%;
+    font-weight: 500;
+    font-size: 1.8rem;
+    text-align: justify;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+
+  .main-box-inicio {
+    height: 35rem;
+  }
+
+  .text-title-inicio {
+    width: 100%;
+    font-size: 3.5rem;
+  }
+
+  .text-inicio {
+    width: 75%;
+  }
+
+  .img-asteroide {
+    width: 50%;
+    max-width: 25rem;
+    margin-top: -13em;
+  }
+
+  /* Se modifica la posicion del asteroide superior */
+  .img-asteroide2 {
+    display: none;
+  }
+
+  .btn-x {
+    width: 15rem;
+  }
+
+}
+
+@media only screen and (max-width: 1100px) {
+  .img-asteroide {
+    display: none;
+  }
+
+  .text-inicio {
+    width: 90%;
+    font-size: 1.5rem;
+  }
+
+  .text-inicio {
+    text-align: start;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+
+  .text-title-inicio {
+    font-size: 3rem;
+  }
+
+  .text-inicio {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .text-title-inicio {
+    width: 100%;
+  }
+}
+
+/* Responsive en general para tabletas grandes */
+@media (min-width: 768px) and (max-width: 1000px) {
+
+  /* Modificación de la clase col-sm-12 de bootstrap */
+  .col-md-12 {
+    width: 100%;
+    flex: 0 0 auto;
+    max-width: none;
+  }
+
+  #nosotros {
+    display: none;
+  }
+
+  .nosotros-with-icons {
+    display: block;
+    margin-top: 7rem;
+  }
+
+  #more-us{
+    display: none;
+  }
+
+
+  .container-text-nosotros-mobile {
+    font-size: 1.3rem;
+  }
+
+  .title-nosotros-mobile {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .title-sections-mobile {
+    font-size: 2.5rem;
+  }
+
+  /* Estilos para la sección de tecnologías */
+  
+
+
+}
+
+
+
+
+/* Media Queri para dispositivos pequeños */
+@media only screen and (max-width: 767px) {
+
+  /* Estilos para la sección de inicio */
+
+  .body-p {
+    padding: 0.5rem;
+  }
+
+  .body-p {
+    width: 100%;
+  }
+
+  .main-box-inicio {
+    height: 25rem;
+    width: 100%;
+  }
+
+  .text-title-inicio {
+    display: none;
+  }
+
+  .content {
+    display: block;
+    position: absolute;
+    top: 50%;
+    /* Cambiado de 50% a 0 */
+    left: 50%;
+    transform: translate(-50%, 0);
+    /* Eliminado el desplazamiento vertical */
+    height: 160px;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    color: white;
+  }
+
+  .content__container {
+    font-weight: 600;
+    overflow: hidden;
+    height: 40px;
+    padding: 0 40px;
+  }
+
+  .content__container:before {
+    content: '[';
+    left: 0;
+  }
+
+  .content__container:after {
+    content: ']';
+    position: absolute;
+    right: 0;
+  }
+
+  .content__container:before,
+  .content__container:after {
+    position: absolute;
+    top: 0;
+    color: #16a085;
+    font-size: 42px;
+    line-height: 40px;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+
+
+  .content__container__list {
+    margin-top: 0;
+    /* padding-left: 110px; */
+    padding-right: 50%;
+
+    text-align: center;
+    list-style: none;
+    animation-name: change;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+
+  .content__container__list__item {
+    line-height: 40px;
+
+  }
+
+  @keyframes opacity {
+
+    0%,
+    100% {
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes change {
+
+    0%,
+    12.66%,
+    100% {
+      transform: translate3d(0, 0, 0);
+    }
+
+    16.66%,
+    29.32% {
+      transform: translate3d(0, -25%, 0);
+    }
+
+    33.32%,
+    45.98% {
+      transform: translate3d(0, -50%, 0);
+    }
+
+    49.98%,
+    62.64% {
+      transform: translate3d(0, -75%, 0);
+    }
+
+    66.64%,
+    79.3% {
+      transform: translate3d(0, -50%, 0);
+    }
+
+    83.3%,
+    95.96% {
+      transform: translate3d(0, -25%, 0);
+    }
+  }
+
+  .img-asteroide,
+  .img-asteroide2 {
+    display: none;
+  }
+
+  .text-inicio {
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .btn-x {
+    width: 12rem;
+    border-radius: 2rem;
+    height: 3.5rem;
+    font-size: 1.3rem;
+  }
+
+  .container-button-inicio {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  /* Sección de nosotros */
+  .fila-nosotros {
+    display: none;
+  }
+
+  /* Sección de nosotros mobile with icons */
+  .nosotros-with-icons {
+    display: block;
+  }
+
+
+  /* Seccción de more-us */
+
+  #more-us {
+    display: none;
+  }
+
+  .more-us-mobile {
+    display: block;
+  }
+
+
+  /* Sección de servicios */
+
+  .services-lg {
+    display: none;
+  }
+
+  .services-sm {
+    display: block;
+  }
+
+  .container-servicios {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .container-item-servicio {
+    width: 100%;
+    height: 36rem;
+    background-color: #CCCCCC;
+    border-radius: 2rem;
+    overflow: hidden;
+    /* background-color: lightsalmon; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+
+  .container-title-item-servicio {
+    width: 90%;
+    height: 18%;
+    /* background-color: lightpink; */
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .container-image-item-servicio {
+    width: 90%;
+    height: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    /* background-color:lightblue; */
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+  }
+
+  .container-text-item-servicio {
+    width: 90%;
+    height: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    /* background-color: lightgreen; */
+    font-size: 1.2rem;
+    text-align: center;
+    display: flex;
+    padding: 0.5rem;
+  }
+
+  .image-servicio-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+}
