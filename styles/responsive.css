@@ -103,7 +103,7 @@
 }
 
 /* Responsive en general para tabletas grandes */
-@media (min-width: 768px) and (max-width: 1000px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 
   /* Modificación de la clase col-sm-12 de bootstrap */
   .col-md-12 {
@@ -111,6 +111,11 @@
     flex: 0 0 auto;
     max-width: none;
   }
+
+  .col-md-6 {
+    width: 50%; /* Establece el ancho deseado para el rango de píxeles especificado */
+  }
+
 
   #nosotros {
     display: none;
@@ -140,8 +145,77 @@
   }
 
   /* Estilos para la sección de tecnologías */
+  .container-title-tecnologias {
+    font-size: 3.2rem;
+  }
   
+  .container-description-tecnologias {
+    font-size: 1.7rem;
+  }
 
+  /* Responsive de la sección de servicios */
+  .swiper-slide-content {
+    width: 80%;
+    height: 100%;
+  }
+
+  .swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-image-slide-services {
+    width: 70%;
+    height: 70%;
+    top: -12rem;
+  }
+
+  .text-description-services {
+    padding: 1rem;
+  }
+
+  .text-description-servi{
+    font-size: 1.4rem;
+  }
+
+  /* Estilos para la sección de contacto */
+  .container-contacto{
+    margin-top: 10rem;
+  }
+
+  h2.contact-title {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .text-contact-info {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .contact-info{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .li-contact{
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Estilos para el footer */
+  .container-logo {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 }
 
