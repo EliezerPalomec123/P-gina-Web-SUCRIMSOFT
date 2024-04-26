@@ -1,6 +1,8 @@
 /* Responsive para la sección de inicio */
 @media only screen and (max-width: 1700px) {
 
+
+
   /* Se modifica la posicion del asteroide superior */
   .img-asteroide2 {
     right: 18rem;
@@ -10,7 +12,36 @@
     width: 50%;
     font-weight: 500;
     font-size: 1.8rem;
-    text-align: justify;
+
+  }
+}
+
+@media only screen and (max-width: 1650px) {
+
+  /* Estilos para la sección de nosotros */
+  .container-left-nosotros {
+    height: 21rem;
+  }
+
+  .container-right-nosotros {
+    height: 21rem;
+  }
+
+  /* Sección nosotros right */
+  .container-right-nosotros-visi {
+    height: 21rem;
+  }
+
+  .container-left-nosotros-visi {
+    height: 21rem;
+  }
+
+  .text-nosotros{
+    font-size: 1.5rem;
+  }
+
+  .text-nosotros-visi{
+    font-size: 1.5rem;
   }
 }
 
@@ -38,10 +69,10 @@
   }
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1450px) {
 
   .main-box-inicio {
-    height: 35rem;
+    height: 32rem;
   }
 
   .text-title-inicio {
@@ -64,13 +95,48 @@
     display: none;
   }
 
+  /* Sección de nosotros */
+  .text-nosotros{
+    font-size: 1.5rem;
+  }
+
   .btn-x {
     width: 15rem;
+    height: 4rem;
   }
 
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1300px) {
+
+  /* Estilos para la sección de nosotros */
+  /* Modificación del tamaño de las imágenes */
+  .container-left-nosotros {
+    height: 19rem;
+  }
+
+  .container-right-nosotros {
+    height: 19rem;
+  }
+
+  /* Modificación del tamaño de fuente */
+  .text-nosotros {
+    font-size: 1.2rem;
+  }
+
+  /* Sección nosotros right */
+  .container-right-nosotros-visi {
+    height: 19rem;
+  }
+  /* Modificación de la altura de la caja de inicio */
+
+  /* Modificación de la altura de la caja de inicio */
+  /* Modificación de la altura de la caja de inicio */
+  .main-box-inicio {
+    height: 28rem;
+  }
+
+
   .img-asteroide {
     display: none;
   }
@@ -83,6 +149,48 @@
   .text-inicio {
     text-align: start;
   }
+
+  /* Estilos para la sección de nosotros */
+
+  /* Modificación del margin-top de la sección */
+  .container-nosotros {
+    margin-top: 5rem;
+  }
+
+  /* Modificación del tamaño de las imágenes */
+  .container-left-nosotros {
+    height: 16rem;
+  }
+
+  .container-right-nosotros {
+    height: 16rem;
+  }
+
+  /* Sección nosotros right */
+  .container-right-nosotros-visi {
+    height: 16rem;
+  }
+
+  .container-left-nosotros-visi {
+    height: 16rem;
+  }
+
+  /* Modificación del tamaño de fuente */
+  .text-nosotros {
+    font-size: 1.3rem;
+  }
+
+  /* Se aplica un margin-top a al apartado de valores para una correcta visualización */
+  .fila-valores{
+    margin-top: 2rem;
+  }
+
+  .container-text {
+    height: 45%;
+    width: 100%;
+  }
+
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -105,15 +213,11 @@
 /* Responsive en general para tabletas grandes */
 @media (min-width: 768px) and (max-width: 1024px) {
 
-  /* Modificación de la clase col-sm-12 de bootstrap */
-  .col-md-12 {
-    width: 100%;
-    flex: 0 0 auto;
-    max-width: none;
-  }
+
 
   .col-md-6 {
-    width: 50%; /* Establece el ancho deseado para el rango de píxeles especificado */
+    width: 50%;
+    /* Establece el ancho deseado para el rango de píxeles especificado */
   }
 
 
@@ -126,7 +230,7 @@
     margin-top: 7rem;
   }
 
-  #more-us{
+  #more-us {
     display: none;
   }
 
@@ -148,7 +252,7 @@
   .container-title-tecnologias {
     font-size: 3.2rem;
   }
-  
+
   .container-description-tecnologias {
     font-size: 1.7rem;
   }
@@ -159,7 +263,7 @@
     height: 100%;
   }
 
-  .swiper-slide{
+  .swiper-slide {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,12 +279,12 @@
     padding: 1rem;
   }
 
-  .text-description-servi{
+  .text-description-servi {
     font-size: 1.4rem;
   }
 
   /* Estilos para la sección de contacto */
-  .container-contacto{
+  .container-contacto {
     margin-top: 10rem;
   }
 
@@ -197,13 +301,13 @@
     margin-left: auto;
   }
 
-  .contact-info{
+  .contact-info {
     display: flex;
     flex-direction: column;
-    
+
   }
 
-  .li-contact{
+  .li-contact {
     display: flex;
     justify-content: center;
   }

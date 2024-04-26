@@ -1,0 +1,143 @@
+ <!-- Sección de more-us -->
+        <section id="more-us">
+          <div class="more-us">
+            <div class=" ddd">
+
+              <div class="row">
+                <div class="col nuevo-div col-lg-4 col-sm-12 col-12">
+                  <img class="image-more-us-c" src="images/celula.jpg" alt="">
+
+
+                  <h3 class="title-more-us-c">Cercanía constante</h3>
+
+                  <div class="container-button-c">
+                    <button class="btn btn-primary more-us-btn-c">Tecnologías</button>
+                  </div>
+                </div>
+
+                <div class="col col-lg-8 col-sm-12 col-12">
+
+                  <!-- Fila para manejar una sola sección -->
+                  <div class="row">
+                    <div class="col col-lg-12 col-sm-12 col-12 enfoque-v">
+
+                      <!-- contenedor para el contenido de enfoque de valor -->
+                      <div class="content-enfoque-v">
+
+                        <div class="texts-enfoque-v">
+                          <div class="container-title-more-us-p">
+                            <h3>Enfoque de valor</h3>
+                          </div>
+
+                          <div class="container-description-us-p">
+                            <p class="text-description-more-us-p">INTERACCION ARMONIOSA</p>
+                          </div>
+                        </div>
+
+                        <!-- Contendeor para la imagen -->
+                        <div class="container-img-enfoque-v">
+                          <img class="img-more-us-p" src="images/planetas.jpg" alt="">
+                        </div>
+                        <div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="container two-sections">
+                      <!-- Fila para manejar dos secciones -->
+                      <div class="row">
+                        <div class=" col-lg-6 col-sm-12 orientados-e">
+                          <div class="orien-exi-container">
+
+                            <!-- Contenedor para el título del div -->
+                            <div class="container-title-orien-exi">
+                              <h3 class="text-title-orien-exi">Orientados al Éxito</h3>
+                            </div>
+
+                            <!-- Contenedor para la descripción del div -->
+                            <div class="container-description-orien-exi">
+                              <p class="text-description-orien-text">CONOCE NUESTRA HISTORIA</p>
+                            </div>
+
+                            <!-- Contenedor para el ícono del div -->
+                            <div class="container-icon-orien-exi">
+                              <i class="bi bi-arrow-up-right icon-flecha"></i>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-12 mejores-p">
+                          <div class="prac-container">
+
+                            <!-- Contenedor para el título del div -->
+                            <div class="container-title-orien-exi">
+                              <h3 class="text-title-orien-exi">Orientados al Éxito</h3>
+                            </div>
+
+                            <!-- Contenedor para la descripción del div -->
+                            <div class="container-description-orien-exi">
+                              <p class="text-description-orien-text">CONOCE NUESTRA HISTORIA</p>
+                            </div>
+
+                            <!-- Contenedor para el ícono del div -->
+                            <div class="container-icon-orien-exi">
+                              <i class="bi bi-arrow-up-right icon-flecha"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+          <!-- Sección de more-us propuesta 2 -->
+          <section id="more-us-2">
+            <!-- contenedor principal para la sección -->
+            <div class="container-more-us-2">
+              <div class="row">
+  
+                <div class="col-lg-6 col-12">
+                  <!-- Contenedor para la imagen -->
+                  <div class="container-content-more-us">
+                    <div class="container-image-more-us-2">
+                      <img class="image-more-us-2" src="images/mejores-p-2.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-lg-6 col-12">
+                  <div class="container-content-more-us">
+                    <div class="container-image-more-us-2">
+                      <img class="image-more-us-2" src="images/enfoque-v.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-lg-6 col-12">
+                  <div class="container-content-more-us">
+                    <div class="container-image-more-us-2">
+                      <img class="image-more-us-2" src="images/orien-exi-2.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-lg-6 col-12">
+                  <div class="container-content-more-us">
+                    <div class="container-image-more-us-2">
+                      <img class="image-more-us-2" src="images/mejores-p.jpeg" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>

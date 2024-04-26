@@ -22,8 +22,13 @@
   height: 5rem;
 }
 
+.text-logo-nav {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
 .body-p {
-  background-color: #dddddd;
+  background-color: #f0f0f0;
   width: 90%;
   margin-right: auto;
   margin-left: auto;
@@ -40,7 +45,8 @@
 }
 
 .bg-gray {
-  background-color: #dddddd;
+  background-color: #f0f0f0;
+  margin-bottom: 1.2rem;
 }
 
 /* Estilos para la caja principal */
@@ -58,7 +64,7 @@
 
 .main-box-inicio {
   /* height: 70vh; */
-  height: 45rem;
+  height: 40rem;
   /* background-color: lightpink; */
   border-radius: 50px;
   position: relative;
@@ -121,7 +127,8 @@
   align-items: center;
   z-index: 2;
   color: white;
-
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 
@@ -137,7 +144,7 @@
 }
 
 .text-title-inicio {
-  font-size: 4.5rem;
+  font-size: 4.2rem;
   width: 2rem;
   font-weight: 900;
 }
@@ -156,9 +163,9 @@
 }
 
 .text-inicio {
-  width: 45%;
+  width: 50%;
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   text-align: justify;
 }
 
@@ -168,12 +175,12 @@
 }
 
 .btn-x {
-  width: 20%;
-  border-radius: 2rem;
-  height: 40%;
+  width: 18rem;
+  height: 5rem;
+  border-radius: 3rem;
   background-color: rgb(224, 224, 224);
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 2rem;
+  font-weight: 900;
   color: black;
   border: none;
 }
@@ -190,7 +197,7 @@
 
 .container-content-circle {
   width: 35%;
-  height: 35%;
+  height: 28%;
   /* background-color: lightpink; */
   position: absolute;
   z-index: 1000;
@@ -202,13 +209,14 @@
 
 .container-content-circle-visi {
   width: 35%;
-  height: 35%;
+  height: 28%;
   /* background-color: lightpink; */
   position: absolute;
   z-index: 1000;
-  left: 57%;
+  right: 23.5%;
   top: 12%;
   display: flex;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -250,7 +258,7 @@
 
 .container-nosotros {
   width: 100%;
-  margin-top: 6rem;
+  margin-top: 9rem;
 }
 
 .fila-nosotros {
@@ -258,8 +266,9 @@
   display: flex;
 }
 
+
 .container-left-nosotros {
-  height: 28rem;
+  height: 26rem;
   display: flex;
   align-items: center;
   /* background-color: aqua; */
@@ -267,7 +276,7 @@
 
 
 .container-right-nosotros {
-  height: 28rem;
+  height: 26rem;
   display: flex;
   align-items: flex-end;
   /* background-color: lightgreen; */
@@ -275,10 +284,11 @@
 
 .container-image {
   width: 70%;
-  height: 95%;
+  height: 100%;
   margin-left: 25%;
   border-radius: 2.5rem;
   overflow: hidden;
+  background-color: lightcoral;
 }
 
 .image-nosotros {
@@ -304,13 +314,14 @@
 
 
 .container-text-visi {
-  height: 45%;
+  height: 50%;
   width: 85%;
   margin-bottom: 5%;
   /* background-color: lightblue; */
 }
 
 .container-right-nosotros-visi {
+  height: 26rem;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -318,18 +329,16 @@
 }
 
 .container-left-nosotros-visi {
-  height: 42svh;
+  height: 26rem;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  /* background-color: aqua; */
+  /* background-color: aqua ; */
 }
 
 .circle2-visi {
   justify-content: flex-start;
 }
-
-
 
 /* Nosotros with icons */
 .section-nosotros-with-icons-mobile {
@@ -387,7 +396,6 @@
 
 .more-us .ddd {
   width: 95%;
-
 }
 
 .container-button-c {
@@ -402,7 +410,7 @@
   width: 200px;
   border-radius: 4rem;
   height: 50px;
-  background-color: rgb(224, 224, 224) !important;
+  background-color: rgb(224, 224, 224);
   font-weight: bold;
   color: black;
 }
@@ -413,23 +421,66 @@
   align-items: center;
   border-radius: 3rem;
   overflow: hidden;
-  height: 80vh;
+  height: 48rem;
   background-color: lightskyblue;
   position: relative;
+}
+
+.nuevo-div:hover::before{
+  transform: translateY(0);
+}
+
+.nuevo-div::before{
+  content: "Nuestros valores nos mueven a responder más eficazmente al acelerado entorno empresarial, y garantizan una interacción armoniosa dentro y fuera de SucrimSoft, que nos lleva a la excelencia profesional y a ser un socio de negocios valioso para nuestros clientes.";
+  z-index: 1000;
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  transform: translateY(100%);
+  transition: .4s;
 }
 
 .enfoque-v {
   height: 40vh;
   border-radius: 2rem;
   width: 100%;
+  position: relative;
+  overflow: hidden;
 }
+
+.enfoque-v:hover::before{
+  transform: translateY(0);
+}
+
+.enfoque-v::before{
+  content: "Nuestros valores nos mueven a responder más eficazmente al acelerado entorno empresarial, y garantizan una interacción armoniosa dentro y fuera de SucrimSoft, que nos lleva a la excelencia profesional y a ser un socio de negocios valioso para nuestros clientes.";
+  color: white;
+  font-size: 1.5rem;
+  z-index: 1000;
+  padding: 1rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  transform: translateY(100%);
+  transition: .4s;
+}
+
 
 .content-enfoque-v {
   width: 100%;
   height: 100%;
   display: flex;
   border-radius: 2rem;
-  background-color: #B0B0B0;
+  background-color: rgba(176, 176, 176, 0.3); 
   position: relative;
 }
 
@@ -480,7 +531,11 @@
   height: 40vh;
   border-radius: 3rem;
   padding-top: 0.8rem;
+  position: relative;
+  overflow: hidden;
 }
+
+
 
 .mejores-p {
   border-radius: 3rem;
@@ -496,13 +551,13 @@
   z-index: 1;
 }
 
+
 .title-more-us-c {
   position: absolute;
   z-index: 2;
   top: 1rem;
   width: 1rem;
   left: 1rem;
-  color: white;
   font-size: 2rem;
   font-weight: 900;
 }
@@ -564,60 +619,91 @@
   background-color: #1A237E;
 }
 
-  /* Sección de more-us mobile */
+/* Sección de more-us mobile */
 
-  .container-item-more-us-mobile {
-    width: 100%;
-    margin-bottom: 2rem;
-  }
+.container-item-more-us-mobile {
+  width: 100%;
+  margin-bottom: 2rem;
+}
 
-  .container-more-us-mobile {
-    width: 100%;
+.container-more-us-mobile {
+  width: 100%;
 
-  }
+}
 
-  .container-imagen-more-us-mobile {
-    width: 100%;
-    background-color: lightcoral;
-    height: 23rem;
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
-    border-radius: 2rem;
-    overflow: hidden;
-  }
+.container-imagen-more-us-mobile {
+  width: 100%;
+  background-color: lightcoral;
+  height: 23rem;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  border-radius: 2rem;
+  overflow: hidden;
+}
 
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    /* Fondo oscuro con transparencia */
-    z-index: 1;
-  }
 
-  .text-overlay {
-    width: 90%;
-    font-size: 1.1rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    /* Color del texto */
-    text-align: center;
-    z-index: 2;
+.img-mobile-more-us {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
-  }
+/* ********************************* */
+/* Estilos para la sección de more-us-2 */
+/* ********************************* */
+.container-more-us-2{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8rem;
+  
+}
 
-  .img-mobile-more-us {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+.container-content-more-us {
+  position: relative;
+  width: 95%;
+  height: 28rem;
+  padding: 1rem;
+}
+
+.container-image-more-us-2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 3rem;
+  overflow: hidden;
+}
+
+.image-more-us-2 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Color negro con opacidad */
+  z-index: 2;
+}
+
+.text-overlay {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  transform: translate(-50%, -50%);
+  color: white; /* Color del texto */
+  z-index: 3; /* Asegura que el texto esté encima del fondo negro */
+  text-align: center;
+}
 
 
 
@@ -626,9 +712,13 @@
 /* ********************************* */
 /* Estilos para la sección de tecnologias */
 /* ********************************* */
+
+#tecnologias{
+  margin-top: 5rem;
+}
+
 .container-tecnologias {
   width: 100%;
-  margin-top: 5rem;
   background-color: black;
   border-radius: 3rem;
   overflow: hidden;
@@ -659,7 +749,7 @@
   font-size: 3.5rem;
   font-weight: bold;
   color: white;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .container-description-tecnologias {
@@ -667,7 +757,7 @@
   width: 95%;
   display: flex;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin-right: auto;
   margin-left: auto;
   color: white;
@@ -691,7 +781,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
+  height: 95%;
   border-top-right-radius: 2rem;
   border-bottom-right-radius: 2rem;
   /* background-color: lightgreen; */
@@ -846,7 +936,7 @@
   height: 70%;
   position: absolute;
   bottom: 0;
-  
+
 }
 
 .title-description-services h3 {
@@ -901,7 +991,7 @@ h2.contact-title {
   font-size: 6rem;
   font-weight: 600;
   margin-bottom: 30px;
-  
+
 }
 
 .contact-info {
@@ -1047,91 +1137,19 @@ ul.contact-info li {
   color: white;
 }
 
-
-
-.fila-form {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  /* background-color: lightblue; */
-}
-
-.primer-col {
-  width: 50%;
-  height: 100%;
+.bg-title {
   /* background-color: lightcoral; */
 }
 
-.container-logo {
-  width: 100%;
-  height: 20vh;
-  /* background-color: lightcoral; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.bg-soluciones {
+  /* background-color: red; */
 }
 
-
-.container-soluciones {
-  width: 100%;
-  height: 20vh;
+.bg-compania {
   /* background-color: lightgreen; */
 }
 
-.container-compania {
-  width: 100%;
-  height: 20vh;
+
+.bg-redes {
   /* background-color: lightpink; */
-}
-
-.container-redes {
-  width: 100%;
-  height: 20vh;
-  /* background-color: lightsalmon; */
-}
-
-.container-title-soluciones {
-  width: 100%;
-  height: 30%;
-  /* background-color: red; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  font-weight: 500;
-}
-
-.container-apps-soluciones {
-  width: 100%;
-  height: 70%;
-  /* background-color: lightpink; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.3rem;
-}
-
-
-.title-redes {
-  width: 100%;
-  height: 50%;
-  /* background-color: lightpink; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container-icons-redes {
-  width: 100%;
-  height: 50%;
-  /* background-color: red; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.icon-item-redes {
-  font-size: 3rem;
-  margin-right: 1.5rem;
 }
